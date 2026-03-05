@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.about-container {
+    background-color: rgba(255, 255, 255, 0.285);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px;
+}
+h2 {
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 28px;
+}
+.subtitle {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1.5px solid #e1e5ee;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.input-group input:focus {
+    border-color: #4361ee;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+}
+.extra-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 14px;
+}
+.extra-links a {
+    color: #4361ee;
+    text-decoration: none;
+    font-weight: 500;
+}
+.extra-links a:hover {
+    text-decoration: underline;
+}
+.about-content p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.login-btn, .action-btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #4361ee;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+.login-btn:hover, .action-btn:hover {
+    background-color: #3651d4;
+}
+@media (max-width: 750px) {
+    .head1{
+    height: 100vh;
+    background-size: 100% 100%;
+    }
+}
